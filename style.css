@@ -702,6 +702,93 @@ section{
 }
 
 
+.post {
+    position: relative;
+    color: #000;
+    text-align: center;
+    padding: 15vw 0;
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+  }
+  
+  .post:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url('postImages/nas1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+  }
+  
+  .post .box {
+    max-width: 70vw;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2vw;
+    border-radius: 2vw;
+    border: .7vw solid #ff0000;
+  }
+  
+  .post .box:hover {
+    border-color: #ff0000;
+    box-shadow: 0 0 10vw rgba(255, 0, 0, 0.5);
+    transform: scale(1.05);
+  }
+  
+  .post .box .postHeading {
+    font-size: 3.6vw;
+    margin-bottom: 2vw;
+  }
+  
+  .post .box .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+  }
+  
+  .post .box .content h3 {
+    font-size: 2.4vw;
+    margin-bottom: 1vw;
+  }
+  
+  .post .box .content span {
+    display: block;
+    margin-bottom: 1.5vw;
+  }
+  
+  .post .box .content p {
+    font-size: 1.6vw;
+    line-height: 1.6;
+    margin-bottom: 2vw;
+  }
+  
+  .post .box .content .button {
+    text-align: center;
+    margin-top: 2vw;
+  }
+  
+  .post .box .content .button .btn {
+    display: inline-block;
+    padding: 1vw 2vw;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post .box .content .button .btn:hover {
+    background-color: #cc0000;
+  }
+  
+  
+
+
 
 
   
@@ -875,6 +962,54 @@ section{
     .legend__text {
         font-size: 2.5vw;
     }
+
+    .post{
+        padding: 40vw 0;
+    }
+
+    .post .box {
+        max-width: 80vw;
+        padding: 7vw;
+        border-radius: 3vw;
+      }
+    
+      .post .box .postHeading {
+        font-size: 5vw;
+      }
+    
+      .post .box .image img {
+        border-radius: 2vw;
+        margin-bottom: 3vw;
+      }
+    
+      .post .box .content h3 {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+      }
+    
+      .post .box .content span {
+        margin-bottom: 3vw;
+      }
+    
+      .post .box .content p {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+      }
+    
+      .post .box .content .button {
+        margin-top: 3vw;
+      }
+    
+      .post .box .content .button .btn {
+        padding: 1.5vw 3vw;
+        border-radius: 1vw;
+      }
+    
+      .post .box:hover {
+        transform: scale(1.05);
+      }
+
+  
 }
 
 
