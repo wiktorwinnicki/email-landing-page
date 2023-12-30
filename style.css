@@ -540,6 +540,8 @@ section{
     grid-template-columns: repeat(auto-fill, minmax(calc(20% - 1vw), 1fr));
     gap: 1.2vw;
     margin: 2vw;
+    overflow: hidden;
+    max-height: 80vh;
 }
 
 .oNas .oNas-slider .content4 .galeria img{
