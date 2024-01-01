@@ -543,7 +543,7 @@ section{
 }
 
 .oNas .oNas-slider .content4 .galeria img{
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 1vw;
     box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1);
@@ -1124,6 +1124,15 @@ section{
 
     .oNas .oNas-slider .content4 .galeria img{
         margin-top: 1.5vw;
+        width: 100%;
+    }
+
+    .oNas .oNas-slider .content4 .galeria {
+        grid-template-columns: repeat(auto-fill, minmax(calc(23% - 1vw), 1fr));
+    }
+
+    .oNas .oNas-slider .content4 .galeria img:hover{
+        transform: scale(5) translate(0, 0);
     }
 
     .kalendarz .kalendarz{
