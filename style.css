@@ -1024,7 +1024,7 @@ section{
         top: 100%;
         right: 0;
         left: 0;
-        background: rgba(0,0,0,rgba(0,0,0,.9));
+        background: rgba(0,0,0,.9);
         border-top: .1rem solid #eee;
         clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
     }
