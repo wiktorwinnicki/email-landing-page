@@ -854,6 +854,114 @@ section{
   .partnerzy .box .button .btn:hover {
     background-color: #ff0000;
   }
+
+
+  
+  .kontakt .box h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3vw;
+    margin-top: -3vw;
+    font-size: 2vw;
+    position: relative;
+  }
+
+  .kontakt .box:hover {
+    box-shadow: 0 0 2vw 1vw rgba(255, 0, 0, 0.7);
+  }
+
+  .kontakt .box h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 0.3vw;
+    background-color: #ff0000;
+    bottom: -1vw;
+    left: 25%;
+  }
+  
+  .kontakt .box {
+    background-color: #ffffff;
+    border: 0.5vw solid #ff0000;
+    padding: 5vw;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 13vw;
+  }
+
+  .kontakt .box .zdj {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: .5vw;
+    margin: 1vw;
+    width: 15vw;
+    height: auto;
+  }
+  
+  .kontakt .box .zdj img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2vw;
+    width: 10vw;
+    height: auto;
+  }
+  
+  .kontakt .box .opis p {
+    font-size: 1.5vw;
+    font-style: normal;
+    text-align: center;
+    text-transform: none;
+    overflow-wrap: break-word;
+    max-width: 60%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .kontakt .box .opis p::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.3vw;
+    background-color: #ff0000;
+    margin: 1vw auto 0;
+  }
+
+  .kontakt .box .ikony {
+    text-align: center;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+  
+  .kontakt .box .ikony a {
+    display: inline-block;
+    color: #ff0000;
+    text-decoration: none;
+    margin-bottom: 1vw;
+    transition: color 0.3s ease;
+    font-size: 2vw;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  }
+  
+  .kontakt .box .ikony a:hover {
+    transform: scale(1.1);
+  }
+  
+  .kontakt .box .ikony i {
+    display: inline-block;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    height: 4.5vw;
+    width: 4.5vw;
+  }
+
   
 
 
@@ -901,35 +1009,35 @@ section{
     #menu-btn{
         display: inline-block;
     }
-    .header.active {
-    padding: 2rem 9%;
-    background: rgba(0, 0, 0, 0.9);
+
+    .header.active{
+        padding: 2rem 9%;
+        background: rgba(0,0,0,.9);
     }
 
-    body {
-    height: auto;
+    body{
+        height: auto;
     }
 
-.header .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.9); /* Corrected */
-    border-top: 0.1rem solid #eee;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: rgba(0,0,0,rgba(0,0,0,.9));
+        border-top: .1rem solid #eee;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
 
-.header .navbar.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
 
-.header .navbar a {
-    display: block;
-    margin: 2rem;
-    font-size: 2rem;
-}
-
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
 
     .oNas .oNas-slider .content,
     .oNas .oNas-slider .content2,
@@ -1097,6 +1205,48 @@ section{
       
       .partnerzy .box p {
         font-size: 2.5vw;
+      }
+
+      .kontakt .box h1 {
+        margin-top: 1.5vw;
+        font-size: 5vw;
+      }
+
+
+    
+      .kontakt .box h1::after {
+        bottom: -1.5vw;
+      }
+    
+      .kontakt .box {
+        margin-top: 35vw;
+        padding: 2vw;
+      }
+    
+      .kontakt .box .zdj {
+        width: 25vw;
+      }
+    
+      .kontakt .box .zdj img {
+        width: 15vw;
+      }
+    
+      .kontakt .box .opis p {
+        font-size: 3.5vw;
+      }
+    
+      .kontakt .box .opis p::after {
+        bottom: 0.5vw;
+      }
+    
+      .kontakt .box .ikony a {
+        font-size: 3vw;
+      }
+    
+      .kontakt .box .ikony i {
+        padding: 1.5vw;
+        height: 7.5vw;
+        width: 7.5vw;
       }
     }
 
