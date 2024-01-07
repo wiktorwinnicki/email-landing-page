@@ -15,9 +15,10 @@
     text-decoration: none;
     border: none;
     outline: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
 }
+
 
 ::selection{
     background: var(--main-color);
@@ -855,8 +856,89 @@ section{
     background-color: #ff0000;
   }
 
+  .nasiPiesciarze .box {
+    background-color: #ffffff;
+    border: 0.5vw solid #ff0000;
+    padding: 1vw;
+    padding-top: 50vw;
+    padding-bottom: 55vw;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 13vw;
+    text-align: center;
+  }
 
-  
+  .nasiPiesciarze .box .opis1 h1{
+    position: absolute;
+    top: .8%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5vw;
+  }
+
+  .nasiPiesciarze .box .opis1 p {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8vw;
+  }
+
+  .nasiPiesciarze .box .zdj {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nasiPiesciarze .box .zdj img {
+    width: 100%; 
+    height: auto;
+}
+
+.nasiPiesciarze .box .opis2 h1{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5vw;
+  }
+
+  .nasiPiesciarze .box .opis2 p {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8vw;
+  }
+
+  .nasiPiesciarze .box .zdj2 {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nasiPiesciarze .box .zdj2 img {
+    width: 100%; 
+    height: auto;
+}
+
+.nasiPiesciarze .box .opis1 h1,
+.nasiPiesciarze .box .opis1 p,
+.nasiPiesciarze .box .opis2 h1,
+.nasiPiesciarze .box .opis2 p {
+    border-bottom: .2vw solid #ff0000;
+    padding-bottom: .5vw;
+}
+
+.nasiPiesciarze .box .zdj,
+.nasiPiesciarze .box .zdj2 {
+    border-bottom: .2vw solid #ff0000;
+    padding-bottom: .5vw;
+}
+
+ 
   .kontakt .box h1 {
     color: #000000;
     text-align: center;
@@ -1256,6 +1338,56 @@ section{
         padding: 1.5vw;
         height: 7.5vw;
         width: 7.5vw;
+      }
+
+      .nasiPiesciarze .box {
+        margin-top: 35vw;
+        padding-top: 135vw;
+        padding-bottom: 135vw;
+      }
+
+      .nasiPiesciarze .box .opis1 h1,
+      .nasiPiesciarze .box .opis2 h1{
+        font-size: 4.5vw;
+      }
+
+      .nasiPiesciarze .box .opis1 h1{
+        top: 2%;
+      }
+
+      .nasiPiesciarze .box .opis2 h1{
+        top: 50%;
+      }
+
+      .nasiPiesciarze .box .opis1 p{
+        top: 7%;
+      }
+
+      .nasiPiesciarze .box .opis2 p{
+        top: 55%;
+      }
+
+      .nasiPiesciarze .box .zdj{
+        top: 25%;
+      }
+
+      .nasiPiesciarze .box .zdj2{
+        top: 70%;
+      }
+
+      .nasiPiesciarze .box .zdj img{
+        width: 75vw;
+        height: auto;
+      }
+
+      .nasiPiesciarze .box .zdj2 img{
+        width: 75vw;
+        height: auto;
+      }
+
+      .nasiPiesciarze .box .opis1 p,
+      .nasiPiesciarze .box .opis2 p{
+        font-size: 3.5vw;
       }
     }
 
